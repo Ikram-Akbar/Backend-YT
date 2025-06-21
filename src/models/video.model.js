@@ -16,13 +16,13 @@ const videoSchema = new Schema(
       type: String,
       required: true,
       trim: true,
-      maxlength: 100,
+      maxLength: 100,
     },
     description: {
       type: String,
       required: true,
       trim: true,
-      maxlength: 1000,
+      maxLength: 1000,
     },
     duration: {
       type: Number,

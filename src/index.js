@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 //call the db :
+
 connectDB()
   .then(() => {
     app.on("ERROR", (error) => {
